@@ -1,9 +1,7 @@
 import time
 
 def decorator_1(func):
-    """
-    Funksiya bajarilish vaqtini hisoblaydigan dekorator.
-    """
+    
     def wrapper(*args, **kwargs):
         start_time = time.time()
         result = func(*args, **kwargs)
